@@ -1,0 +1,3 @@
+module FIleManager {
+	requires java.base;
+}

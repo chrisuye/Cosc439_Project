@@ -1,0 +1,20 @@
+package fileManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BinaryTree tree = new BinaryTree();
+		
+		tree.root = new Node("Start");
+		
+		tree.root.left = new Node("one left");
+		tree.root.right = new Node("one right");
+		
+		tree.root.left.left = new Node("two left left");
+		
+		System.out.print(tree.toString());
+
+	}
+
+}
